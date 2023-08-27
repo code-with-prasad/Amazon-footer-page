@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="amazon-icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .footer-nav {
+            background-color: #485769;
+            padding: 15px;
+            text-align: center;
+        }
+        .footer-nav:hover{
+            background-color: #6d757e;
+            transition: 0.5s ease;
+        }
+        .footer-content {
+            background-color: #232F3E;
+            padding: 30px 0px;
+        }
+        .footer-items {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 15vw;
+        }
+        .items {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: #c2bcbc;
+        }
+        .items .title{
+            font-size: 15px;
+        }
+        .items span{
+            font-size: small;
+        }
+        .title {
+            color: #eee;
+        }
+        .amazon-logo{
+            width: 100px;
+        }
+        .bar {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-bottom: 0.5px solid #6c6363;
+            box-shadow: 5px 5px 5px #6c6363;
+        }
+        .footer-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+        .footer-logo .languse {
+            border: 1px solid #8a7f7f;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #c2bcbc;
+        }
+        .languse .fa-globe {
+            margin-right: 10px;
+        }
+
+        .languse select {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #c2bcbc;
+        }
+        select option {
+            background-color: #232F3E;
+            border: none;
+            outline: none;
+        }
+        .cuntrys {
+            margin: 20px 10px 0px 0px;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 1.5px;
+            /* background-color: red; */
+        }
+        .cuntrys span {
+            margin-right: 10px;
+            color: #c2bcbc;
+            font-size: small;
+        }
+        .services {
+            background-color: #131A22;
+            padding: 18px;
+        }
+        .services-list{
+            display: flex;
+            justify-content: space-around;
+            margin: 0 15vw;
+            padding: 15px;
+        }
+        .services-items .title{
+            font-size: small;
+        }
+        .services-items span{
+            color: #c2bcbc;
+            font-size: x-small;
+        }
+        .copyright{
+            margin-top: 20px;
+            text-align: center;
+            color: #eee;
+        }
+        .copyright-content span{
+            margin-right: 10px;
+        }
+        span:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="footer-nav">
+            <span class="title">Back to top</span>
+        </div>
+        <div class="footer-content">
+            <div class="footer-items">
+                <div class="items">
+                    <h3 class="title">Get to Know Us</h3>
+                    <span>About Us</span>
+                    <span>Carrers</span>
+                    <span>Press Releases</span>
+                    <span>Amazon Scince</span>
+                </div>
+                <div class="items">
+                    <h3 class="title">Connect with Us</h3>
+                    <span>Facebook</span>
+                    <span>Twitter</span>
+                    <span>Instagram</span>
+                </div>
+                <div class="items">
+                    <h3 class="title">Make Money With Us</h3>
+                    <span>Sell on Amazon</span>
+                    <span>Sell under Amazon Accelerator</span>
+                    <span>Protect and Build Your Brand</span>
+                    <span>Amazon Global Selling</span>
+                    <span>Become an Affiliate</span>
+                    <span>Fulfilment by Amazon</span>
+                    <span>Advertise Your Products</span>
+                    <span>Amazon Pay on Merchants</span>
+                </div>
+                <div class="items">
+                    <h3 class="title">Let Us Help You</h3>
+                    <span>COVID-19 and Amazon</span>
+                    <span>Your Account</span>
+                    <span>Returns Centre</span>
+                    <span>100% Purchase Protection</span>
+                    <span>Amazon App Download</span>
+                    <span>Help</span>
+                </div>
+            </div>
+            <div class="bar"></div>
+            <div class="footer-logo">
+                <img class="amazon-logo" src="amazon-logo.png" alt="Amazon">
+                <div class="languse">
+                    <span class="fa-solid fa-globe"></span>
+                    <select> <!--****************************-->
+                        <option value="">English</option>
+                        <option value="">Hindi</option>
+                        <option value="">Odia</option>
+                        <option value="">Telugu</option>
+                    </select> <!--*******************************-->
+                </div>
+            </div>
+            <div class="cuntrys">
+                <span>Australia</span>
+                <span>Brazil</span>
+                <span>Canada</span>
+                <span>China</span>
+                <span>France</span>
+                <span>Germany</span>
+                <span>Italy</span>
+                <span>Japan</span>
+                <span>Mexico</span>
+                <span>Netherlands</span>
+                <span>Poland</span>
+                <span>Singapore</span>
+                <span>Spain</span>
+                <span>Turkey</span>
+                <span>United Arab Emirates</span>
+                <br>
+                <span>United Kingdom</span>
+                <span>United States</span>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="services-list">
+                <div class="services-items">
+                    <h4 class="title">AbeBooks</h4>
+                    <span>Books, art <br> & collectibles</span>
+                    <br><br>
+                    <h4 class="title">Shopbop</h4>
+                    <span>Designer <br> Fashion Brands</span>
+                </div>
+                <div class="services-items">
+                    <h4 class="title">Amazon Web Services</h4>
+                    <span>Scalable Cloud <br> Computing Services</span>
+                    <br><br>
+                    <h4 class="title">Amazon Business</h4>
+                    <span>Everything For <br> Your Business</span>
+                </div>
+                <div class="services-items">
+                    <h4 class="title">Audible</h4>
+                    <span>Download <br> Audio Books</span>
+                    <br><br>
+                    <h4 class="title">Prime Now</h4>
+                    <span>2-Hour Delivery <br> on Everyday Items</span>
+                </div>
+                <div class="services-items">
+                    <h4 class="title">DPReview</h4>
+                    <span>Digital <br> Photography</span>
+                    <br><br>
+                    <h4 class="title">Amazon Prime Music</h4>
+                    <span>100 milion songs, ad-free <br> Over 15 milion podcast episodes</span>
+                </div>
+                <div class="services-items">
+                    <h4 class="title">IMDb</h4>
+                    <span>Movies, TV <br> & Celebrities</span>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-content">
+                    <span>Conditions of Use & Sale</span>
+                    <span>Privacy Notice </span>
+                    <span>Interest-Based Ads</span>
+                </div>
+                <div class="copyright-symbol">
+                    <span><span>&copy;</span> ,1996-2023, Amazon.com, Inc. or its affiliates</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
